@@ -17,4 +17,4 @@
 
 ## Reference
 Code is heavily build on:
-![](https://github.com/yansq/raycast-search-files-by-tag)
+![https://github.com/yansq/raycast-search-files-by-tag](https://github.com/yansq/raycast-search-files-by-tag)
