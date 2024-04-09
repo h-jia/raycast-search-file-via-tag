@@ -1,6 +1,7 @@
-import { ActionPanel, List, Action, open } from "@raycast/api";
+import { ActionPanel, List, Action, open, getApplications } from "@raycast/api";
 import { useEffect, useState } from "react";
 import { useExec } from "@raycast/utils";
+import { showInFinder } from "@raycast/api";
 import path from "path";
 
 export default function Command() {
@@ -52,6 +53,7 @@ export default function Command() {
           actions={
             <ActionPanel>
               <Action title="Open File" onAction={() => open(item)} />
+              <Action title="Show in Finder" onAction={() => showInFinder(item)} />
             </ActionPanel>
           }
         />
